@@ -16,6 +16,7 @@ CORS(app)
 
 db.init_app(app)
 
+
 migrate = Migrate(app,db)
 ma = Marshmallow(app)
 api = Api(app)
